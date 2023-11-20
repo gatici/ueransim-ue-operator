@@ -1,0 +1,48 @@
+supi: {{ supi }}
+mcc: {{ mcc }}
+mnc: {{ mnc }}
+protectionScheme: 0
+homeNetworkPublicKey: '5a8d38864820197c3394b92613b20b91633cbd897119273bf8e4a6f4eec0a650'
+homeNetworkPublicKeyId: 1
+routingIndicator: '0000'
+key: {{ usim_key }}
+op: {{ usim_opc }}
+opType: 'OPC'
+amf: '8000'
+imei: {{ imei }}
+imeiSv: '4370816125816151'
+gnbSearchList:
+  - {{ gnb_address }}
+uacAic:
+  mps: false
+  mcs: false
+uacAcc:
+  normalClass: 0
+  class11: false
+  class12: false
+  class13: false
+  class14: false
+  class15: false
+sessions:
+  - type: 'IPv4'
+    apn: 'internet'
+    slice:
+      sst: 0x01
+      sd: 0x010203
+configured-nssai:
+  -  sst: 0x01
+     sd: 0x010203
+default-nssai:
+  - sst: 1
+    sd: 1
+integrity:
+  IA1: true
+  IA2: true
+  IA3: true
+ciphering:
+  EA1: true
+  EA2: true
+  EA3: true
+integrityMaxRate:
+  uplink: 'full'
+  downlink: 'full'

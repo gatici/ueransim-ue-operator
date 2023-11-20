@@ -1,0 +1,6 @@
+
+start-ue:
+  description: Starts the UE simulator
+
+stop-ue:
+  description: Stops the UE simulator

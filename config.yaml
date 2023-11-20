@@ -1,0 +1,37 @@
+options:
+  mcc:
+    type: string
+    default: "208"
+    description: Mobile Country Code
+  mnc:
+    type: string
+    default: "93"
+    description: Mobile Network code
+  sd:
+    type: string
+    default: "010203"
+    description: Slice ID
+  sst:
+    type: int
+    default: 1
+    description: Slice Service Type
+  supi:
+    type: string
+    default: "imsi-208930100007487"
+    description: IMSI number of the UE
+  usim-key:
+    type: string
+    default: "5122250214c33e723a5dd523fc145fc0"
+    description: USIM Key
+  usim-opc:
+    type: string
+    default: "981d464c7c52eb6e5036234984ad0bcf"
+    description: USIM Operator Key
+  imei:
+    type: string
+    default: "356938035643803"
+    description: IMEI number of the device. It is used if no SUPI is provided
+  gnb-address:
+    type: string
+    default: "127.0.0.1"
+    description: gNB's IP address on the RAN network
